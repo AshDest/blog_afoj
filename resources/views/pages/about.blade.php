@@ -273,6 +273,7 @@
                                         <li>Chercher à développer l’autonomie, la confiance et l’estime de soi des enfants
                                             (Grands Thèmes de l’enfance »)</li>
                                     </ul>
+
                                 </div>
                             </div>
                         </div>
@@ -315,11 +316,118 @@
                                         sur la guérison des blessures de l’ame à Goma</li>
                                 </ul>
                                 <div class="desc pt-20">Nous avons
-                                    organisé des formations, des rencontres, des journées en familles, des ateliers et autre.
+                                    organisé des formations, des rencontres, des journées en familles, des ateliers et
+                                    autre.
                                     plus de detail dans notre rapport annuel.
                                 </div>
                                 <br>
-                                <a href="{{ asset('assets/files/afoj_10_ans_apres.pdf') }}" class="readon details">raport annuel 2019</a>
+                                <a href="{{ asset('assets/files/afoj_10_ans_apres.pdf') }}" class="readon details">raport
+                                    annuel 2019</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rs-services-single pb-120 md-pt-80 md-pb-80">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 md-mb-50">
+                                <div class="services-title pb-24">
+                                    <h2 class="title">Temoignages</h2>
+                                </div>
+                                <!-- Testimonial Section Start -->
+                                <div class="rs-testimonial testimonial-style5">
+                                    <div class="rs-carousel owl-carousel" data-loop="true" data-items="1"
+                                        data-margin="30" data-autoplay="true" data-hoverpause="true"
+                                        data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false"
+                                        data-nav="false" data-nav-speed="false" data-center-mode="false"
+                                        data-mobile-device="1" data-mobile-device-nav="false"
+                                        data-mobile-device-dots="false" data-ipad-device="1" data-ipad-device-nav="false"
+                                        data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="false"
+                                        data-ipad-device-dots2="false" data-md-device="1" data-md-device-nav="false"
+                                        data-md-device-dots="false">
+                                        <div class="testi-item">
+                                            <div class="testi-wrap">
+                                                <div class="item-content-basic">
+                                                    <span>
+                                                        <img src="assets/images/testimonial/style1/quote.png"
+                                                            alt="Images">
+                                                    </span>
+                                                    <p>Cette femme s’appelle SIFA. Elle est mère de 2 enfant et vit à Rutshuru. Elle nous a partagé qu’elle est parmi ces femmes qui facilement sortait facilement des paroles traumatisantes vis-à-vis des enfants. Elle déclare : « je ne savais pas que j’étais en train de détruire mes enfants moi-même et ça me fait mal de le réaliser aujourd’hui alors que cette situation dure quelques années. Mais je comprends aussi que j’ai encore une chance de me rattraper et donc à partir de maintenant, je m’engage à changer de langage vis-à-vis d’eux </p>
+                                                </div>
+                                                <div class="testi-content">
+                                                    <div class="image-wrap">
+                                                        <img src="assets/images/testimonial/style1/1.jpg" alt="Images">
+                                                    </div>
+                                                    <div class="testi-information">
+                                                        <div class="testi-name">SIFA ---- </div>
+                                                        <span class="designation">Temoignant</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testi-item">
+                                            <div class="testi-wrap">
+                                                <div class="item-content-basic">
+                                                    <span>
+                                                        <img src="assets/images/testimonial/style1/quote.png"
+                                                            alt="Images">
+                                                    </span>
+                                                    <p>Je suis Brigitte, j’habite à Goma. je suis fille d’un militaire et je me suis aussi mariée à un militaire. J’ai grandi avec la chicotte. Une moindre bêtise valait 10 chicottes partout sur le corps, au minimum. Je voyais tout le temps mes parents se battre, s’insulter devant moi et mes frères. Et donc pour moi, battre un enfant quand il a fait une bêtise était une chose normale. Je n'avais jamais pensé que me battre avec mon mari devant mes enfants était une forme de maltraitance. Je viens de comprendre les conséquences de tout ceci et je comprends que je suis devenue violente à cause de ce que j’ai vécu avec mes parents…Je veux vraiment participer chaque fois à ces réflexions car j’ai besoin de changer et de voir mes enfants être épanouis et pacifiques.</p>
+                                                </div>
+                                                <div class="testi-content">
+                                                    <div class="image-wrap">
+                                                        <img src="assets/images/testimonial/style1/2.jpg" alt="Images">
+                                                    </div>
+                                                    <div class="testi-information">
+                                                        <div class="testi-name">Brigitte ....</div>
+                                                        <span class="designation">Temoignant</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testi-item">
+                                            <div class="testi-wrap">
+                                                <div class="item-content-basic">
+                                                    <span>
+                                                        <img src="assets/images/testimonial/style1/quote.png"
+                                                            alt="Images">
+                                                    </span>
+                                                    <p>SAFINA est une jeune fille qui trouvait normal de frapper et de dire des paroles dures à ses petits frères de manière régulière. Elle déclare comprendre qu’elle est en train de maltraiter ses frères et a commencé à changer. Elle nous dit qu’après quelques mois d’exercice de changement d’attitudes, ses petits frères et elles sont devenus des meilleurs amis et écoutent ses conseils facilement.</p>
+                                                </div>
+                                                <div class="testi-content">
+                                                    <div class="image-wrap">
+                                                        <img src="assets/images/testimonial/style1/3.jpg" alt="Images">
+                                                    </div>
+                                                    <div class="testi-information">
+                                                        <div class="testi-name">SAFINA ....</div>
+                                                        <span class="designation">Temoignant</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testi-item">
+                                            <div class="testi-wrap">
+                                                <div class="item-content-basic">
+                                                    <span>
+                                                        <img src="assets/images/testimonial/style1/quote.png"
+                                                            alt="Images">
+                                                    </span>
+                                                    <p>je prends conscience que l’ignorance nous tue et nous amène à tuer sans le savoir. Je suis très dure avec mes enfants à travers les paroles que je leur dis. Et je réalise que je brutalise ma femme en leur présence. Je n’avais pas conscience des effets destructeurs de ces attitudes. Depuis la dernière réunion, j’ai commencé à changer même si ces attitudes me rattrapent parfois. Mais je suis déterminé à arrêter d’être violent avec eux. Et je dis merci pour ce cadre de noyau d’AFOJ qui m’aide beaucoup dans ce processus</p>
+                                                </div>
+                                                <div class="testi-content">
+                                                    <div class="image-wrap">
+                                                        <img src="assets/images/testimonial/style1/4.jpg" alt="Images">
+                                                    </div>
+                                                    <div class="testi-information">
+                                                        <div class="testi-name">Michel PALUKU</div>
+                                                        <span class="designation">Temoignant</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Section End -->
                             </div>
                         </div>
                     </div>
