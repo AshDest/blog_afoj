@@ -12,7 +12,7 @@
             <a href="/">Accueil</a>
         </li>
         <li>
-            <a href="#">A propos</a>
+            <a href="{{ route('about') }}">A propos</a>
         </li>
         <li>
             <a href="#">Activités</a>
@@ -25,7 +25,7 @@
         </li>
     </ul> <!-- //.nav-menu -->
     <!-- //.nav-menu -->
-   
+
     <!-- //.nav-menu -->
     <div class="canvas-contact">
           <div class="address-area">

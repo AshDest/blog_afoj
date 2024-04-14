@@ -238,7 +238,7 @@
                 <div class="row y-middle">
                     <div class="rs-services-single">
                         <div class="container">
-                             <div class="row">
+                            <div class="row">
                                 <div class="col-lg-12 md-mb-50">
                                     <div class="services-title pb-24">
                                         <h2 class="title">Notre Approche</h2>
@@ -247,19 +247,34 @@
                                         LES 10 POINTS CLES DE LA PARENTALITE BIENVEILLANTE & RIGOUREUSE
                                     </p>
                                     <ul class="check-lists check-modify1">
-                                        <li>Faire le point sur sa propre histoire : ai-je des blessures d’enfant à guérir, quel modèle d'éducation parentale ai-je reçu, quel type de parentalité ai-je envie de pratiquer avec mes enfants ? </li>
-                                        <li>Prendre conscience de l’impact (positif ou négatif) que peuvent avoir sur nos enfants nos mots et nos attitudes ainsi que les « étiquettes » que nous leurs collons.</li>
+                                        <li>Faire le point sur sa propre histoire : ai-je des blessures d’enfant à guérir,
+                                            quel modèle d'éducation parentale ai-je reçu, quel type de parentalité ai-je
+                                            envie de pratiquer avec mes enfants ? </li>
+                                        <li>Prendre conscience de l’impact (positif ou négatif) que peuvent avoir sur nos
+                                            enfants nos mots et nos attitudes ainsi que les « étiquettes » que nous leurs
+                                            collons.</li>
                                         <li>Apprendre à mieux communiquer & à écouter.</li>
-                                        <li>Connaitre et s’employer à respecter les besoins fondamentaux de l’enfant, conscient du fait que chaque comportement de l’enfant a une cause, une origine, qui n’est autre que l’expression d’un besoin.</li>
-                                        <li>S'intéresser aux étapes du développement de l’enfant, afin d’adapter nos attentes et exigences aux compétences de l’enfant (cf. du développement de l’enfant de 0 à 6 ans).</li>
-                                        <li>Etablir une relation basée sur la confiance plutôt que sur les rapports de force (qui ne fonctionne que grâce à la crainte, mais engendre des adultes soumis ou rebelles). La véritable autorité est celle que comprennent et acceptent nos enfants... pas celle qu'on les force à respecter !</li>
-                                        <li>Accueillir avec bienveillance tous les sentiments et émotions... y compris ceux qui nous dérangent : colère, peur, tristesse etc.</li>
+                                        <li>Connaitre et s’employer à respecter les besoins fondamentaux de l’enfant,
+                                            conscient du fait que chaque comportement de l’enfant a une cause, une origine,
+                                            qui n’est autre que l’expression d’un besoin.</li>
+                                        <li>S'intéresser aux étapes du développement de l’enfant, afin d’adapter nos
+                                            attentes et exigences aux compétences de l’enfant (cf. du développement de
+                                            l’enfant de 0 à 6 ans).</li>
+                                        <li>Etablir une relation basée sur la confiance plutôt que sur les rapports de force
+                                            (qui ne fonctionne que grâce à la crainte, mais engendre des adultes soumis ou
+                                            rebelles). La véritable autorité est celle que comprennent et acceptent nos
+                                            enfants... pas celle qu'on les force à respecter !</li>
+                                        <li>Accueillir avec bienveillance tous les sentiments et émotions... y compris ceux
+                                            qui nous dérangent : colère, peur, tristesse etc.</li>
                                         <li>Apprendre à poser efficacement les règles et consignes de vie</li>
-                                        <li>Apprendre à trouver « ensemble » des solutions aux conflits parent-enfants, à gérer les disputes dans la fratrie et apprendre aux enfants à gérer leurs propres conflits</li>
-                                        <li>Chercher à développer l’autonomie, la confiance et l’estime de soi des enfants (Grands Thèmes de l’enfance »)</li>
+                                        <li>Apprendre à trouver « ensemble » des solutions aux conflits parent-enfants, à
+                                            gérer les disputes dans la fratrie et apprendre aux enfants à gérer leurs
+                                            propres conflits</li>
+                                        <li>Chercher à développer l’autonomie, la confiance et l’estime de soi des enfants
+                                            (Grands Thèmes de l’enfance »)</li>
                                     </ul>
                                 </div>
-                             </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -288,8 +303,10 @@
                                         sensibilisations journalières sur la thématique; l’accompagnement
                                         individuel d’une moyenne de 200 parents par an ainsi que
                                         l’organisation d’une journée des familles par an.</li>
-                                    <li>Des rencontres avec les parents, des journées en familles,…pour échanger des expériences et
-                                        apprendre ensemble à vaincre la violence dans nos famille pour une meilleure croissance de l’enfant.</li>
+                                    <li>Des rencontres avec les parents, des journées en familles,…pour échanger des
+                                        expériences et
+                                        apprendre ensemble à vaincre la violence dans nos famille pour une meilleure
+                                        croissance de l’enfant.</li>
                                     <li>Rencontres et des jeunes des parents à Mweso, à Rutshuru& à
                                         Goma</li>
                                     <li>Accompagnement des 30 parents à Mweso via la mise en place d’un AVEC en
@@ -297,11 +314,12 @@
                                     <li>Formations des hommes sur la masculinité positive à Mweso & des parents
                                         sur la guérison des blessures de l’ame à Goma</li>
                                 </ul>
-                                <div class="desc pt-20">
-                                    If several languages coalesce. over the years, sometimes by accident, sometimes on
-                                    purpose. Over the years, sometimes by accident, on purpose uropean languages the same
-                                    family
+                                <div class="desc pt-20">Nous avons
+                                    organisé des formations, des rencontres, des journées en familles, des ateliers et autre.
+                                    plus de detail dans notre rapport annuel.
                                 </div>
+                                <br>
+                                <a href="{{ asset('assets/files/afoj_10_ans_apres.pdf') }}" class="readon details">raport annuel 2019</a>
                             </div>
                         </div>
                     </div>

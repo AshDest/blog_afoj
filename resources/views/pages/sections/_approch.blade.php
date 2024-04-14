@@ -8,8 +8,8 @@
                         Bienveillance,
                         Respect &<span> rigeur.</span>
                     </h2>
-                    <p class="desc small2">Faire le point sur sa propre histoire : ai-je des blessures d’enfant à guérir, quel modèle d'éducation parentale ai-je reçu, 
-                        quel type de parentalité ai-je envie de pratiquer avec mes enfants ? Prendre conscience de l’impact (positif ou négatif) 
+                    <p class="desc small2">Faire le point sur sa propre histoire : ai-je des blessures d’enfant à guérir, quel modèle d'éducation parentale ai-je reçu,
+                        quel type de parentalité ai-je envie de pratiquer avec mes enfants ? Prendre conscience de l’impact (positif ou négatif)
                         que peuvent avoir sur nos enfants nos mots et nos attitudes ainsi que les « étiquettes » que nous leurs collons.
                     </p>
                 </div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="btn-part mt-40">
-                    <a class="readon slide-started more" href="#"><span>voir plus</span></a>
+                    <a class="readon slide-started more" href="{{ route('about') }}"><span>voir plus</span></a>
                 </div>
             </div>
             <div class="col-lg-6">

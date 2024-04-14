@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="btn-part mt-45 md-mt-30">
-                    <a class="readon slide-started more" href="#"><span>Lire plus</span></a>
+                    <a class="readon slide-started more" href="{{ route('about') }}"><span>Lire plus</span></a>
                 </div>
             </div>
         </div>

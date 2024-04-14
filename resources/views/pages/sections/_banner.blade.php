@@ -13,7 +13,7 @@
                         sein depuis plus de 10 ans.
                     </p>
                     <div class="banner-btn mt-40 md-mt-25">
-                        <a class="readon slide-started" href="#"><span>Voir plus</span></a>
+                        <a class="readon slide-started" href="{{ route('about') }}"><span>Voir plus</span></a>
                     </div>
                     <div class="banner-box banner-boxs"></div>
                 </div>

@@ -6,8 +6,8 @@
                     <h3 class="footer-title">A propos de nous</h3>
                     <div class="textwidget mb-33">
                         Un rassemblement d’hommes et des femmes congolais qui croyons que pour
-construire une Nation forte et solide, il faut commencer par construire des
-familles fortes et solides. 
+                        construire une Nation forte et solide, il faut commencer par construire des
+                        familles fortes et solides.
                     </div>
                     <ul class="footer-social md-mb-30">
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -83,8 +83,8 @@ familles fortes et solides.
             <div class="row y-middle">
                 <div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
                     <ul class="copy-right-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="{{ route('home') }}">Home</a></li>
+                        <li><a href="{{ route('about') }}">About</a></li>
                         <li><a href="services1.html">Services</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact1.html">Contact</a></li>
