@@ -18,7 +18,7 @@
                                     <a href="/">Accueil</a>
                                 </li>
                                 <li>
-                                    <a href="#">A propos</a>
+                                    <a href="{{ route('about') }}">A propos</a>
                                 </li>
                                 <li>
                                     <a href="#">Activités</a>
