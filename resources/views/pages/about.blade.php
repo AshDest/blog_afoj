@@ -5,11 +5,14 @@
         <div class="container">
             <div class="breadcrumbs-inner">
                 <h1 class="page-title">
-                    portfolios Single
-                    <span class="watermark">portfolios</span>
+                    A Propos
+                    <span class="watermark">AFOJ</span>
                 </h1>
-                <span class="sub-text">Excepteur sint occaecat cupidatat non proident, sunt in coulpa qui official<br>
-                    modeserunt mollit anim id est laborum 20 years experience.</span>
+                <span class="sub-text">Nous accompagnons des familles
+                    congolaises à un meilleur
+                    <br>
+                    traitement des enfants en leur
+                    sein depuis plus de 10 ans.</span>
             </div>
         </div>
     </div>
@@ -49,27 +52,29 @@
                     <div class="col-lg-3 col-md-6 md-mb-30 md-pl-0">
                         <div class="project-content">
                             <div class="project-right-border"></div>
-                            <h4 class="title">Skills</h4>
+                            <h4 class="title">Thematiques</h4>
                             <div class="description">
-                                <p>Consulting, Management</p>
+                                {{-- <p>Consulting, Management</p> --}}
+                                <p>-------- -------</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 md-mb-30 pl-50 md-pl-0">
                         <div class="project-content">
                             <div class="project-right-border border-two"></div>
-                            <h4 class="title">Client</h4>
+                            <h4 class="title">Fondateur</h4>
                             <div class="description">
-                                <p>John Dibag</p>
+                                {{-- <p>John Dibag</p> --}}
+                                <p>---- ------</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 sm-mb-30 md-pl-0">
                         <div class="project-content">
                             <div class="project-right-border border-three"></div>
-                            <h4 class="title">Completed Date</h4>
+                            <h4 class="title">Date de creation</h4>
                             <div class="description">
-                                <p>20 - 04 - 2021</p>
+                                <p>20 - 04 - 2012</p>
                             </div>
                         </div>
                     </div>
@@ -77,7 +82,7 @@
                         <div class="project-content">
                             <h4 class="title">Location</h4>
                             <div class="description">
-                                <p>New York, NY, USA</p>
+                                <p>Goma, Nord-Kivu, DRC</p>
                             </div>
                         </div>
                     </div>
@@ -85,17 +90,24 @@
             </div>
             <div class="project-txt mb-30">
                 <div class="desc">
-                    European languages are members of the same family. The languages only differ in their grammar, their
-                    pronu nciation and their most common words. pronunciation and more common words. If several languages
-                    coalesce. over the years, sometimes by accident, sometimes on purpose. Over the years, sometimes by
-                    accident, sometimes on purpose. European languages are members of the same family.
+                    Un rassemblement d’hommes et des femmes congolais qui croyons que pour
+                    construire une Nation forte et solide, il faut commencer par construire des
+                    familles fortes et solides. Des familles où les futurs dirigeants des Nations sont
+                    protégés et formés pour créer des sociétés plus humaines, plus résilientes.
+                    Nous croyons que la violence et la misère en RDC est principalement dû à la
+                    crise des valeurs humaines et la misère dans les familles, en commençant par la
+                    façon dont les futurs leaders sont y traités.
+                    La violence, la paresse, la médiocrité, l’égoïsme, l’injustice, la corruption, les
+                    divisions, les conflits mal gérés… dans la société congolaise ont principalement
+                    leurs bases dans les familles.
                 </div>
             </div>
             <div class="project-txt mb-50">
                 <div class="desc">
-                    The languages only differ in their grammar, their pronu nciation and their most common words.
-                    pronunciation and more common words. If several languages coalesce. nciation and their most common
-                    words. pronunciation and more common words.
+                    Pour briser efficacement le cercle vicieux créé par cette situation, il est devenu
+                    indispensable d’associer tous les membres des familles à ce voyage en y
+                    influençant un meilleur traitement des enfants. Travailler sur les causes et les
+                    effets pour prévenir et guérir.
                 </div>
             </div>
             <!-- Counter Section Start -->
@@ -162,34 +174,92 @@
                 </div>
             </div>
             <!-- Counter Section End -->
+            <br>
+            <div class="project-txt mb-30">
+                <div class="desc">
+                    Nous avons observé beaucoup de maltraitance d’enfant dans plusieurs familles que nous avons côtoyé. Voir
+                    même beaucoup de personnes qui se sont engagé à créer AFOJ sont des personnes qui ont eux-mêmes vécu
+                    certaines formes de ces maltraitances et ont réalisé leurs méfaits avec le temps, raison même de leur
+                    engagement au sein d’AFOJ. Et au vu de toutes les formes de maltraitances observées (violences
+                    physiques, violences psychologiques, violences sexuelles et les négligences graves), nous avons réalisés
+                    que ce n’est pas étonnant de voir la crise des valeurs fondamentales (respect de la vie, respect de la
+                    différence, respect des sensibilités, l’amour du travail bien fait, la loyauté, l’intégrité, le goût de
+                    l’excellence, le sens du service, du sacrifice …) qui sont soubassements même d’une Nation Forte, en
+                    République Démocratique du Congo.
+                </div>
+            </div>
+            <div class="project-txt mb-50">
+                <div class="desc">
+                    Et si nous voulons apporter un réel changement positif, nous avons
+                    compris qu’il est plus qu’urgent, de donner une attention particulière à ce que vivent les enfants au
+                    sein de leurs familles en y influençant un climat de paix en faveur de leur épanouissement harmonieux.
+                    Plusieurs efforts ont déjà été fourni par des structures qui œuvrent dans la protection de l’enfance,
+                    cependant très peu d’entre elles mettent un accent sur les réflexions et échanges permanents avec les
+                    parents d’une part, et avec les jeunes sur l’amélioration du traitement de l’enfant au sein des familles
+                    avec des changements concrets d’attitudes. Du fait que le besoin se fait de plus en plus sentir, un
+                    groupe d’amis a décidé de créer AFOJ en 2012, pour donner sa contribution.
+                </div>
+            </div>
 
-            <div class="rs-project-goals pt-100 md-pt-80">
-                <div class="row y-middle">
-                    <div class="col-lg-6 pr-50 md-pr-15 md-mb-30">
-                        <div class="project-content mb-45">
-                            <div class="project-title">
-                                <h3 class="title pb-35">Project Goals</h3>
+            <div class="rs-appointment">
+                <div class="container">
+                    <div class="border-divider">
+                        <div class="boder-shape"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 md-mb-30">
+                            <div class="content-part">
+                                <h3 class="title">Vision</h3>
+                                <p class="desc">Des familles résilientes
+                                    produisant des citoyens de
+                                    qualité pour une Nation forte</p>
                             </div>
-                            <div class="desc pb-30">
-                                European languages are members of the same family. The languages only differ in their
-                                grammar, their pronu nciation and their most common words.. are of the same family.
+                        </div>
+                        <div class="col-lg-4 md-mb-30">
+                            <div class="content-part">
+                                <h3 class="title">Mission</h3>
+                                <p class="desc">Accompagner les familles
+                                    congolaises à un meilleur
+                                    traitement des enfants en leur
+                                    sein</p>
                             </div>
-                            <ul class="check-lists check-modify1">
-                                <li>Digital how will activities impact traditional</li>
-                                <li>All these digital elements and projects aim</li>
-                                <li>I monitor my staff with software that takes</li>
-                                <li>Laoreet dolore magna sodium glutimate</li>
-                                <li>Veniam Minim quis niacin sodium</li>
-                            </ul>
-                            <div class="desc pt-20">
-                                Pronunciation and more common words. If several languages the coalesce. over the years,
-                                sometimes by accident, sometimes on purpose. Over the years, sometimes by purpose.
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="content-part">
+                                <h3 class="title">Valeurs</h3>
+                                <p class="desc">Bien-être et excellence,
+                                    Bienveillance, Respect, rigeur.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="project-goal">
-                            <img src="assets/images/project/details/per-1.png" alt="">
+                </div>
+            </div>
+            <div class="rs-project-goals pt-100 md-pt-80">
+                <div class="row y-middle">
+                    <div class="rs-services-single">
+                        <div class="container">
+                             <div class="row">
+                                <div class="col-lg-12 md-mb-50">
+                                    <div class="services-title pb-24">
+                                        <h2 class="title">Notre Approche</h2>
+                                    </div>
+                                    <p class="desc-part pb-26">
+                                        LES 10 POINTS CLES DE LA PARENTALITE BIENVEILLANTE & RIGOUREUSE
+                                    </p>
+                                    <ul class="check-lists check-modify1">
+                                        <li>Faire le point sur sa propre histoire : ai-je des blessures d’enfant à guérir, quel modèle d'éducation parentale ai-je reçu, quel type de parentalité ai-je envie de pratiquer avec mes enfants ? </li>
+                                        <li>Prendre conscience de l’impact (positif ou négatif) que peuvent avoir sur nos enfants nos mots et nos attitudes ainsi que les « étiquettes » que nous leurs collons.</li>
+                                        <li>Apprendre à mieux communiquer & à écouter.</li>
+                                        <li>Connaitre et s’employer à respecter les besoins fondamentaux de l’enfant, conscient du fait que chaque comportement de l’enfant a une cause, une origine, qui n’est autre que l’expression d’un besoin.</li>
+                                        <li>S'intéresser aux étapes du développement de l’enfant, afin d’adapter nos attentes et exigences aux compétences de l’enfant (cf. du développement de l’enfant de 0 à 6 ans).</li>
+                                        <li>Etablir une relation basée sur la confiance plutôt que sur les rapports de force (qui ne fonctionne que grâce à la crainte, mais engendre des adultes soumis ou rebelles). La véritable autorité est celle que comprennent et acceptent nos enfants... pas celle qu'on les force à respecter !</li>
+                                        <li>Accueillir avec bienveillance tous les sentiments et émotions... y compris ceux qui nous dérangent : colère, peur, tristesse etc.</li>
+                                        <li>Apprendre à poser efficacement les règles et consignes de vie</li>
+                                        <li>Apprendre à trouver « ensemble » des solutions aux conflits parent-enfants, à gérer les disputes dans la fratrie et apprendre aux enfants à gérer leurs propres conflits</li>
+                                        <li>Chercher à développer l’autonomie, la confiance et l’estime de soi des enfants (Grands Thèmes de l’enfance »)</li>
+                                    </ul>
+                                </div>
+                             </div>
                         </div>
                     </div>
                 </div>
@@ -210,19 +280,22 @@
                         <div class="col-lg-6 pl-40 md-pl-15 mt-55">
                             <div class="project-content mb-45 md-mb-0">
                                 <div class="project-title">
-                                    <h3 class="title pb-35">Final Outcome of This Project</h3>
-                                </div>
-                                <div class="desc pb-20">
-                                    The languages only differ in their grammar, their pronu nciation and their most common
-                                    words. sometimes by accident, sometimes on purpose. European languages are members of
-                                    the same family european languages are members of the same family.
+                                    <h3 class="title pb-35">Nos réalisations en terme de Projets</h3>
                                 </div>
                                 <ul class="check-lists check-modify1">
-                                    <li>How will digital activities impact traditional manufacturing.</li>
-                                    <li>All these digital elements and projects aim to enhance .</li>
-                                    <li>I monitor my staff with software that takes screenshots.</li>
-                                    <li>Dolore magna niacin sodium aliquam hendrerit.</li>
-                                    <li>Minim veniam quis niacin nostrud exerci dolor.</li>
+                                    <li>Accompagnement d’environs 3000 parents sur la parentalité positive
+                                        via l’organisation des 3 sessions de formations par an et la
+                                        sensibilisations journalières sur la thématique; l’accompagnement
+                                        individuel d’une moyenne de 200 parents par an ainsi que
+                                        l’organisation d’une journée des familles par an.</li>
+                                    <li>Des rencontres avec les parents, des journées en familles,…pour échanger des expériences et
+                                        apprendre ensemble à vaincre la violence dans nos famille pour une meilleure croissance de l’enfant.</li>
+                                    <li>Rencontres et des jeunes des parents à Mweso, à Rutshuru& à
+                                        Goma</li>
+                                    <li>Accompagnement des 30 parents à Mweso via la mise en place d’un AVEC en
+                                        vue de subvenir aux besoins alimentaires des leurs enfants.</li>
+                                    <li>Formations des hommes sur la masculinité positive à Mweso & des parents
+                                        sur la guérison des blessures de l’ame à Goma</li>
                                 </ul>
                                 <div class="desc pt-20">
                                     If several languages coalesce. over the years, sometimes by accident, sometimes on
