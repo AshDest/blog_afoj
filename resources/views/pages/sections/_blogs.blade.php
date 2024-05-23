@@ -4,7 +4,7 @@
             <span class="sub-text big-text">News & BLog</span>
             <h2 class="title title title2 title-color">
                 Derniers Articles<br>
-                & Publications <span>Insights</span>
+                & Publications <span>Activité</span>
             </h2>
         </div>
         <div class="row">
