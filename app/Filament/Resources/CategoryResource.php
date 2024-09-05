@@ -9,6 +9,7 @@ use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Forms\Components\TextInput;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
@@ -24,7 +25,16 @@ class CategoryResource extends Resource
     {
         return $form
             ->schema([
-                //
+                TextInput::make('title')
+                    ->label('Titre')
+                    ->required()
+                    ->placeholder('Entrez le titre de la catégorie'),
+                // generate a slug based on the title automatically
+                TextInput::make('slug')
+                    ->label('Slug')
+                    ->required()
+                    ->placeholder('Entrez le slug de la catégorie'),
+                // ->disabled(),
             ]);
     }
 
@@ -32,22 +42,23 @@ class CategoryResource extends Resource
     {
         return $table
             ->columns([
-                TextColumn::make('name')
+                TextColumn::make('title')
                     ->searchable()
-                    ->label('Nom')
+                    ->label('Titre')
                     ->limit(20) // Limits the text content to 50 characters
-                    ->tooltip(fn ($record) => $record->description)
+                    ->tooltip(fn($record) => $record->description)
                     ->sortable(),
                 TextColumn::make('slug')
                     ->label('Slug')
                     ->limit(10) // Limits the text content to 50 characters
-                    ->tooltip(fn ($record) => $record->description),
+                    ->tooltip(fn($record) => $record->description),
             ])
             ->filters([
                 //
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
+                Tables\Actions\DeleteAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
