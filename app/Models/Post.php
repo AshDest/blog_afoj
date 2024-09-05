@@ -19,6 +19,7 @@ class Post extends Model
         'image_bottom',
         'featured',
         'published_at',
+        'category_id',
     ];
 
     public function category()
