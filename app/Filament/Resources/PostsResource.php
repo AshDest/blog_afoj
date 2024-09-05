@@ -36,20 +36,28 @@ class PostsResource extends Resource
         return $table
             ->columns([
                 ImageColumn::make('image_top')
-                    ->label('image_top')
+                    ->label('Image')
                     ->square(),
                 TextColumn::make('title')
                     ->searchable()
+                    ->label('Titre')
+                    ->limit(20) // Limits the text content to 50 characters
+                    ->tooltip(fn ($record) => $record->content)
                     ->sortable(),
                 TextColumn::make('slug')
-                    ->searchable()
-                    ->sortable(),
+                    ->label('Slug')
+                    ->limit(10) // Limits the text content to 50 characters
+                    ->tooltip(fn ($record) => $record->content),
                 BooleanColumn::make('featured')
+                    ->label('En vedette')
                     ->sortable(),
                 TextColumn::make('body')
-                    ->searchable()
-                    ->sortable(),
+                    ->label('Contenu')
+                    ->limit(50) // Limits the text content to 50 characters
+                    ->tooltip(fn ($record) => $record->content)
+                    ->searchable(),
                 TextColumn::make('published_at')
+                    ->label('Publié le')
                     ->searchable()
                     ->sortable(),
             ])
