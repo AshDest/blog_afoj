@@ -10,6 +10,9 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Columns\DateTimeColumn;
+use Filament\Tables\Columns\BooleanColumn;
+use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -32,14 +35,16 @@ class PostsResource extends Resource
     {
         return $table
             ->columns([
+                ImageColumn::make('image_top')
+                    ->label('image_top')
+                    ->square(),
                 TextColumn::make('title')
                     ->searchable()
                     ->sortable(),
                 TextColumn::make('slug')
                     ->searchable()
                     ->sortable(),
-                TextColumn::make('excerpt')
-                    ->searchable()
+                BooleanColumn::make('featured')
                     ->sortable(),
                 TextColumn::make('body')
                     ->searchable()
@@ -49,10 +54,11 @@ class PostsResource extends Resource
                     ->sortable(),
             ])
             ->filters([
-                //
+                // filters by published_at and title
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
+                Tables\Actions\DeleteAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
