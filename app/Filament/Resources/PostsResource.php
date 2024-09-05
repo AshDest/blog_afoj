@@ -5,7 +5,9 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\PostsResource\Pages;
 use App\Filament\Resources\PostsResource\RelationManagers;
 use App\Models\Post;
+use Auth;
 use Filament\Forms;
+use Filament\Forms\Components\Hidden;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
@@ -24,6 +26,8 @@ use Filament\Forms\Components\Grid;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\BelongsToSelect;
 use Filament\Forms\Components\BelongsToMany;
+use Filament\Forms\Set;
+use Illuminate\Support\Str;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -39,28 +43,48 @@ class PostsResource extends Resource
         return $form
             ->schema([
                 FileUpload::make('image_top')
-                    ->label('Image') // Optional: Add a custom label
+                    ->label('Image 1') // Optional: Add a custom label
                     ->image() // Ensures that only image files are uploaded
                     ->directory('images') // Optional: Specify the directory where images will be stored
-                    ->maxSize(1024), // Optional: Limit the maximum file size to 1MB
+                    ->maxSize(2048), // Optional: Limit the maximum file size to 1MB
                 FileUpload::make('image_bottom')
-                    ->label('Image') // Optional: Add a custom label
+                    ->label('Image 2') // Optional: Add a custom label
                     ->image() // Ensures that only image files are uploaded
                     ->directory('images') // Optional: Specify the directory where images will be stored
-                    ->maxSize(1024), // Optional: Limit the maximum file size to 1MB
+                    ->maxSize(2048), // Optional: Limit the maximum file size to 1MB
                 TextInput::make('title')
                     ->label('Titre')
+                    ->maxLength(255)
                     ->required()
+                    ->live(onBlur: true)
+                    ->afterStateUpdated(function (Set $set, $state) {
+                        $set('slug', Str::slug($state));
+                    })
                     ->placeholder('Entrez le titre de l\'article'),
                 TextInput::make('slug')
                     ->label('Slug')
-                    ->required()
-                    ->placeholder('Entrez le slug de l\'article'),
+                    ->maxLength(255)
+                    ->required(),
                 Grid::make(1) // Single-column grid for full-width components
                     ->schema([
                         RichEditor::make('body')
                             ->label('Content')
-                            ->toolbarButtons(['bold', 'italic', 'underline', 'strike', 'link', 'bulletList', 'orderedList']) // Optional: Customize the toolbar buttons
+                            ->toolbarButtons([
+                                'attachFiles',
+                                'blockquote',
+                                'bold',
+                                'bulletList',
+                                'codeBlock',
+                                'h2',
+                                'h3',
+                                'italic',
+                                'link',
+                                'orderedList',
+                                'redo',
+                                'strike',
+                                'underline',
+                                'undo',
+                            ])
                             ->placeholder('Enter your content here')
                             ->maxLength(5000),
                         Textarea::make('citation')
@@ -83,10 +107,8 @@ class PostsResource extends Resource
                 Toggle::make('published')
                     ->label('Publié') // Optional: Add a custom label
                     ->inline(true), // Optional: Make it appear inline
-                BelongsToSelect::make('user_id')
-                    ->relationship('user', 'name')
-                    ->default(auth()->id())
-                    ->hidden(),
+                Hidden::make('user_id')
+                    ->default(Auth::id()),
             ]);
     }
 
