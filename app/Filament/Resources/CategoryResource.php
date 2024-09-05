@@ -9,6 +9,7 @@ use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -31,7 +32,16 @@ class CategoryResource extends Resource
     {
         return $table
             ->columns([
-                //
+                TextColumn::make('name')
+                    ->searchable()
+                    ->label('Nom')
+                    ->limit(20) // Limits the text content to 50 characters
+                    ->tooltip(fn ($record) => $record->description)
+                    ->sortable(),
+                TextColumn::make('slug')
+                    ->label('Slug')
+                    ->limit(10) // Limits the text content to 50 characters
+                    ->tooltip(fn ($record) => $record->description),
             ])
             ->filters([
                 //

@@ -20,4 +20,9 @@ class Post extends Model
         'featured',
         'published_at',
     ];
+
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
 }
