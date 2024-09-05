@@ -17,7 +17,7 @@ class Post extends Model
         'citation',
         'autor',
         'image_bottom',
-        'featured',
+        'published',
         'published_at',
         'category_id',
         'user_id',

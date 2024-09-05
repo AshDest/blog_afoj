@@ -80,8 +80,8 @@ class PostsResource extends Resource
                             ->relationship('category', 'title')
                             ->required(),
                     ]),
-                Toggle::make('featured')
-                    ->label('featured') // Optional: Add a custom label
+                Toggle::make('published')
+                    ->label('Publié') // Optional: Add a custom label
                     ->inline(true), // Optional: Make it appear inline
                 BelongsToSelect::make('user_id')
                     ->relationship('user', 'name')
@@ -107,8 +107,8 @@ class PostsResource extends Resource
                     ->label('Slug')
                     ->limit(10) // Limits the text content to 50 characters
                     ->tooltip(fn($record) => $record->content),
-                BooleanColumn::make('featured')
-                    ->label('En vedette')
+                BooleanColumn::make('published')
+                    ->label('Publié')
                     ->sortable(),
                 TextColumn::make('body')
                     ->label('Contenu')

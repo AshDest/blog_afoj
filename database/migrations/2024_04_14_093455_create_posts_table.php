@@ -22,7 +22,7 @@ return new class extends Migration {
             $table->text('citation')->nullable();
             $table->string('autor')->nullable();
             $table->string('image_bottom')->nullable();
-            $table->boolean('featured')->default(false);
+            $table->boolean('published')->default(false);
             $table->timestamp('published_at')->nullable();
             $table->foreignIdFor(Category::class)->cascadeOnDelete()->cascadeOnUpdate();
             $table->softDeletes();
