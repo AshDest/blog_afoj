@@ -83,6 +83,10 @@ class PostsResource extends Resource
                 Toggle::make('featured')
                     ->label('featured') // Optional: Add a custom label
                     ->inline(true), // Optional: Make it appear inline
+                BelongsToSelect::make('user_id')
+                    ->relationship('user', 'name')
+                    ->default(auth()->id())
+                    ->hidden(),
             ]);
     }
 

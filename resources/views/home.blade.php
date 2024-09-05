@@ -61,59 +61,63 @@
     <!-- Testimonial Section End -->
 
     <!-- Blog Section Start -->
-    <div id="rs-blog" class="rs-blog blog-style1 pt-120 pb-120 md-pt-80 md-pb-80">
-        <div class="container">
-            <div class="sec-title text-center mb-50">
-                <span class="sub-text big-text">News & BLog</span>
-                <h2 class="title title title2 title-color">
-                    Derniers Articles<br>
-                    & Publications <span>Insights</span>
-                </h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 md-mb-50">
-                    <div class="blog-item">
-                        <div class="image-wrap">
-                            <a href="#"><img src="{{$lastPost->image_top}}" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <ul class="blog-meta">
-                                <li class="admin"><i class="fi  fi-rr-user"></i>{{$lastPost->user_id}}</li>
-                                <li class="date"><i class="fi fi-rr-calendar"></i>{{$lastPost->published_at}}</li>
-                            </ul>
-                            <h3 class="blog-title"><a href="#">{{$lastPost->title}}</a></h3>
-                            <div class="desc">
-                                {{-- limit caracters --}}
-                                {{ Str::limit($lastPost->body, 115) }}
+    @if ($lastPost)
+        <div id="rs-blog" class="rs-blog blog-style1 pt-120 pb-120 md-pt-80 md-pb-80">
+            <div class="container">
+                <div class="sec-title text-center mb-50">
+                    <span class="sub-text big-text">News & BLog</span>
+                    <h2 class="title title title2 title-color">
+                        Derniers Articles<br>
+                        & Publications <span>Insights</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 md-mb-50">
+                        <div class="blog-item">
+                            <div class="image-wrap">
+                                <a href="#"><img src="{{ $lastPost->image_top }}" alt=""></a>
                             </div>
-                            <div class="blog-button"><a href="#">Lire plus</a></div>
+                            <div class="blog-content">
+                                <ul class="blog-meta">
+                                    <li class="admin"><i class="fi  fi-rr-user"></i>{{ $lastPost->user_id }}</li>
+                                    <li class="date"><i class="fi fi-rr-calendar"></i>{{ $lastPost->published_at }}</li>
+                                </ul>
+                                <h3 class="blog-title"><a href="#">{{ $lastPost->title }}</a></h3>
+                                <div class="desc">
+                                    {{-- limit caracters --}}
+                                    {{ Str::limit($lastPost->body, 115) }}
+                                </div>
+                                <div class="blog-button"><a href="#">Lire plus</a></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="blog-horizontal">
-                        @foreach ($featuredPosts as $item)
-                        <div class="blog-meta mb-30">
-                            <div class="blog-item-wrap">
-                                <div class="image-wrap">
-                                    <a href="#"><img src="{{$item->image_top}}"
-                                            alt=""></a>
+                    <div class="col-lg-6">
+                        <div class="blog-horizontal">
+                            @foreach ($featuredPosts as $item)
+                                <div class="blog-meta mb-30">
+                                    <div class="blog-item-wrap">
+                                        <div class="image-wrap">
+                                            <a href="#"><img src="{{ $item->image_top }}" alt=""></a>
+                                        </div>
+                                        <div class="blog-content">
+                                            <ul class="blog-meta">
+                                                <li class="admin"><i class="fi  fi-rr-user"></i>{{ $item->user_id }}</li>
+                                                <li class="date"><i
+                                                        class="fi fi-rr-calendar"></i>{{ $item->published_at }}</li>
+                                            </ul>
+                                            <h3 class="blog-title"><a href="#">{{ Str::limit($item->title, 61) }}</a>
+                                            </h3>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="blog-content">
-                                    <ul class="blog-meta">
-                                        <li class="admin"><i class="fi  fi-rr-user"></i>{{$item->user_id}}</li>
-                                        <li class="date"><i class="fi fi-rr-calendar"></i>{{$item->published_at}}</li>
-                                    </ul>
-                                    <h3 class="blog-title"><a href="#">{{ Str::limit($item->title, 61) }}</a></h3>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
-                        @endforeach
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    @else
+    @endif
     <!-- Blog Section End -->
 
     <!-- Newsletter section start -->
