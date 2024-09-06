@@ -75,17 +75,18 @@
                     <div class="col-lg-6 md-mb-50">
                         <div class="blog-item">
                             <div class="image-wrap">
-                                <a href="#"><img src="{{ $lastPost->image_top }}" alt=""></a>
+                                <a href="{{ $lastPost->image_top }}"><img src="{{ $lastPost->image_top }}"
+                                        alt=""></a>
                             </div>
                             <div class="blog-content">
                                 <ul class="blog-meta">
                                     <li class="admin"><i class="fi  fi-rr-user"></i>{{ $lastPost->user_id }}</li>
                                     <li class="date"><i class="fi fi-rr-calendar"></i>{{ $lastPost->published_at }}</li>
                                 </ul>
-                                <h3 class="blog-title"><a href="#">{{ $lastPost->title }}</a></h3>
+                                <h3 class="blog-title"><a href="{{ $lastPost->image_top }}">{{ $lastPost->title }}</a></h3>
                                 <div class="desc">
                                     {{-- limit caracters --}}
-                                    {{ Str::limit($lastPost->body, 115) }}
+                                    {!! Str::limit($lastPost->body, 115) !!}
                                 </div>
                                 <div class="blog-button"><a href="#">Lire plus</a></div>
                             </div>
