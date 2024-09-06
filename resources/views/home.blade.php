@@ -75,8 +75,8 @@
                     <div class="col-lg-6 md-mb-50">
                         <div class="blog-item">
                             <div class="image-wrap">
-                                <a href="{{ $lastPost->image_top }}"><img src="{{ $lastPost->image_top }}"
-                                        alt=""></a>
+                                <a href="{{ $lastPost->image_top }}"><img
+                                        src="{{ asset('storage/' . $lastPost->image_top) }}" alt=""></a>
                             </div>
                             <div class="blog-content">
                                 <ul class="blog-meta">
@@ -98,7 +98,8 @@
                                 <div class="blog-meta mb-30">
                                     <div class="blog-item-wrap">
                                         <div class="image-wrap">
-                                            <a href="#"><img src="{{ $item->image_top }}" alt=""></a>
+                                            <a href="#"><img src="{{ asset('storage/' . $lastPost->image_top) }}"
+                                                    alt=""></a>
                                         </div>
                                         <div class="blog-content">
                                             <ul class="blog-meta">
