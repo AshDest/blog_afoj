@@ -54,7 +54,7 @@
                             </div>
                             <div class="services-text">
                                 <h5 class="title"> Marie Désanges LUMOO</h5>
-                                <p class="services-txt">Coordinatrice de AFO</p>
+                                <p class="services-txt">Coordinatrice de AFOJ</p>
                             </div>
                         </div>
                     </div>
